@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>사진 갤러리</title>
+    <title>Chair</title>
     <style>
         /* 기본 여백 제거 및 검은색 배경 설정 */
         body {
@@ -43,8 +43,8 @@
             background: rgba(0, 0, 0, 0.3); /* 반투명 검은색 배경 */
             color: white;
             border: none;
-            font-size: 3rem; /* 화살표 크기 */
-            padding: 15px 25px;
+            font-size: 2rem; 
+            padding: 10px 20px; 
             cursor: pointer;
             transition: background 0.3s ease;
             z-index: 10;
@@ -62,8 +62,8 @@
         /* 모바일 화면에서는 버튼을 조금 작게 조정 */
         @media (max-width: 600px) {
             .nav-button {
-                font-size: 2rem;
-                padding: 10px 15px;
+                font-size: 1.5rem; /* 모바일에서도 화살표 크기 줄임 */
+                padding: 8px 12px;
             }
             .prev { left: 10px; }
             .next { right: 10px; }
@@ -85,14 +85,13 @@
 
     <script>
         const images = [
-            "./image001.jpg",  
-            "./image002.jpg", 
-            "./image003.jpg",  
-            "./image004.jpg", 
-            "./image005.jpg", 
-            "./image006.jpg",  
-            "./image007.jpg", 
-            "./image008.jpg", 
+            "./image015.jpg", 
+            "./image009.jpg", 
+            "./image010.jpg", 
+            "./image011.jpg",  
+            "./image012.jpg", 
+            "./image013.jpg", 
+            "./image016.jpg", 
         ];
 
         let currentIndex = 0;
